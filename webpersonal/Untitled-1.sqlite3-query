@@ -1,0 +1,12 @@
+-- database: ./db.sqlite3
+
+-- Presione el botón ▷ en la esquina superior derecha de la ventana para ejecutar todo el archivo.
+
+SELECT * FROM portfolio_project;
+
+CREATE TABLE "portfolio_project" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "title" varchar(200) NOT NULL, "description" varchar(1000) NOT NULL, "created" datetime NOT NULL, "updated" datetime NOT NULL);
+
+
+
+DROP TABLE portfolio_project;
+
